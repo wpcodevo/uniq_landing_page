@@ -20,38 +20,67 @@
     <header class="header" id="header">
       <!-- Navigation -->
       <div class="navigation">
-        <div class="nav__logo">
-          <h1>
+        <nav class="nav__center container">
+          <div class="nav__logo">
+            <span>
+              <svg>
+                <use xlink:href="./images/sprite.svg#icon-map2"></use>
+              </svg>
+            </span>
+            <h1>UNIQ</h1>
+          </div>
+
+          <div class="nav__menu">
+            <ul class="nav__list">
+              <li class="nav__item">
+                <a href="#header" class="nav__link">Home</a>
+              </li>
+
+              <li class="nav__item">
+                <a href="#services" class="nav__link">Services</a>
+              </li>
+
+              <li class="nav__item">
+                <a href="#products" class="nav__link">Products</a>
+              </li>
+
+              <li class="nav__item">
+                <a href="#" class="nav__link">Sign up</a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="hamburger">
             <svg>
-              <use xlink:href="./images/sprite.svg#icon-map2"></use>
+              <use xlink:href="./images/sprite.svg#icon-menu"></use>
             </svg>
+          </div>
+        </nav>
+      </div>
 
-            UNIQ
-          </h1>
+      <!-- Banner -->
+      <div class="banner container">
+        <div class="banner__center">
+          <div class="banner__left">
+            <span>Marketing Agency</span>
+            <h1>We are a digital agency with a product mindset</h1>
+            <p>
+              Problem solvers, makers and doers. Our way of working helps client
+              create world class experiences, get ahead and stay there.
+            </p>
+
+            <a href="#">Get Started</a>
+          </div>
+          <div class="banner__right">
+            <img src="./images/pic1.svg" alt="" />
+          </div>
         </div>
-
-        <ul class="nav__list">
-          <li class="nav__item">
-            <a href="#header" class="nav__link">Home</a>
-          </li>
-
-          <li class="nav__item">
-            <a href="#services" class="nav__link">Services</a>
-          </li>
-
-          <li class="nav__item">
-            <a href="#products" class="nav__link">Products</a>
-          </li>
-
-          <li class="nav__item">
-            <a href="#" class="nav__link">Sign up</a>
-          </li>
-        </ul>
       </div>
     </header>
 
     <!-- Main -->
 
     <!-- Footer -->
+    <script src="index.js"></script>
   </body>
 </html>
